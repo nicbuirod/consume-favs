@@ -1,0 +1,21 @@
+.modal {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.468);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.window {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(14, 127, 192);
+  border-radius: 20px;
+  width: 400px;
+  height: 50px;
+}
